@@ -1,0 +1,6 @@
+com/yeahbutstilldev/ws/api/resourceserver/ResourceServerApplication.class
+com/yeahbutstilldev/ws/api/resourceserver/response/UserRest.class
+com/yeahbutstilldev/ws/api/resourceserver/controllers/TokenController.class
+com/yeahbutstilldev/ws/api/resourceserver/security/WebSecurity.class
+com/yeahbutstilldev/ws/api/resourceserver/controllers/UsersController.class
+com/yeahbutstilldev/ws/api/resourceserver/security/KeycloakRoleConverter.class

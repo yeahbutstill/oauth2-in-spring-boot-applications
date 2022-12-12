@@ -1,0 +1,6 @@
+/home/yeahbutstill/IdeaProjects/OAuth 2.0 in Spring Boot Applications/resource-serv/src/main/java/com/yeahbutstilldev/ws/api/resourceserver/response/UserRest.java
+/home/yeahbutstill/IdeaProjects/OAuth 2.0 in Spring Boot Applications/resource-serv/src/main/java/com/yeahbutstilldev/ws/api/resourceserver/controllers/TokenController.java
+/home/yeahbutstill/IdeaProjects/OAuth 2.0 in Spring Boot Applications/resource-serv/src/main/java/com/yeahbutstilldev/ws/api/resourceserver/controllers/UsersController.java
+/home/yeahbutstill/IdeaProjects/OAuth 2.0 in Spring Boot Applications/resource-serv/src/main/java/com/yeahbutstilldev/ws/api/resourceserver/security/WebSecurity.java
+/home/yeahbutstill/IdeaProjects/OAuth 2.0 in Spring Boot Applications/resource-serv/src/main/java/com/yeahbutstilldev/ws/api/resourceserver/security/KeycloakRoleConverter.java
+/home/yeahbutstill/IdeaProjects/OAuth 2.0 in Spring Boot Applications/resource-serv/src/main/java/com/yeahbutstilldev/ws/api/resourceserver/ResourceServerApplication.java
