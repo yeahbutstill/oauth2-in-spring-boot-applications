@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/api-getway/pom.xml" />
         <option value="$PROJECT_DIR$/resource-serv/pom.xml" />
+        <option value="$PROJECT_DIR$/photos-resource-server/pom.xml" />
+        <option value="$PROJECT_DIR$/albums-resource-server/pom.xml" />
       </list>
     </option>
   </component>
