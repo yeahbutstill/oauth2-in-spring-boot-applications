@@ -8,12 +8,17 @@
 - Create user
 - Secure client app
 
-## Run app
+## Run resource eureka server, album, photo app web client and spring clouds api gateways
+- discoveryservice
+- album-resource-server
+- photo-app-web-client
+- api-getway
+
 ```shell
 mvn clean install spring-boot:run
 ```
 
-## Referensi
+## Referencer
 - https://edwin.baculsoft.com/tag/keycloak
 - https://www.keycloak.org/guides
 - https://spring.io/guides/gs/gateway/

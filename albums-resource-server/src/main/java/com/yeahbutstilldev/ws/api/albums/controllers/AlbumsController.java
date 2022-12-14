@@ -33,8 +33,15 @@ public class AlbumsController {
         album2.setAlbumTitle("Album 2 title");
         album2.setAlbumDescription("Album 2 description");
         album2.setAlbumUrl("Album 2 URL");
+
+        AlbumRest album3 = new AlbumRest();
+        album3.setAlbumId("albumIdHere1234");
+        album3.setUserId("3");
+        album3.setAlbumTitle("Shed (2011)");
+        album3.setAlbumDescription("Shed is the debut studio album by American rock band Title Fight. It was released on May 3, 2011, through SideOneDummy Records. It received positive reviews, garnering an 81 on review aggregator Metacritic. It debuted at No. 8 on the Billboard Heatseekers chart.");
+        album3.setAlbumUrl("Album Shed (2011) URL");
          
-        return Arrays.asList(album1, album2);
+        return Arrays.asList(album1, album2, album3);
 
     }
  
