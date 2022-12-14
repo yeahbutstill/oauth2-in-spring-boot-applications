@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="discoveryservice" />
         <module name="albums" />
+        <module name="photo-app-web-client" />
         <module name="api-getway" />
         <module name="photos" />
         <module name="resource-serv" />
@@ -18,6 +19,7 @@
       <module name="albums" target="17" />
       <module name="api-getway" target="17" />
       <module name="discoveryservice" target="17" />
+      <module name="photo-app-web-client" target="17" />
       <module name="photos" target="17" />
       <module name="resource-serv" target="17" />
     </bytecodeTargetLevel>
@@ -27,6 +29,7 @@
       <module name="albums" options="-parameters" />
       <module name="api-getway" options="-parameters" />
       <module name="discoveryservice" options="-parameters" />
+      <module name="photo-app-web-client" options="-parameters" />
       <module name="photos" options="-parameters" />
       <module name="resource-serv" options="-parameters" />
     </option>
