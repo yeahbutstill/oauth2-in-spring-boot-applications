@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="discoveryservice" />
         <module name="albums" />
         <module name="photo-app-web-client" />
+        <module name="resource-serv" />
+        <module name="discoveryservice" />
+        <module name="social-login-web-client" />
         <module name="api-getway" />
         <module name="photos" />
-        <module name="resource-serv" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="photo-app-web-client" target="17" />
       <module name="photos" target="17" />
       <module name="resource-serv" target="17" />
+      <module name="social-login-web-client" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -32,6 +34,7 @@
       <module name="photo-app-web-client" options="-parameters" />
       <module name="photos" options="-parameters" />
       <module name="resource-serv" options="-parameters" />
+      <module name="social-login-web-client" options="-parameters" />
     </option>
   </component>
 </project>

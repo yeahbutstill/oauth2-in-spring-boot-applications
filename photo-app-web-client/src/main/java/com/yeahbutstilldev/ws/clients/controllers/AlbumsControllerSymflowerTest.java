@@ -1,9 +1,10 @@
 package com.yeahbutstilldev.ws.clients.controllers;
 
-import org.junit.jupiter.api.*;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 import org.springframework.security.oauth2.core.oidc.user.OidcUser;
 import org.springframework.ui.Model;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AlbumsControllerSymflowerTest {
 	@Test

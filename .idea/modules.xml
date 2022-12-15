@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/photo-app-web-client/photo-app-web-client.iml" filepath="$PROJECT_DIR$/photo-app-web-client/photo-app-web-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/photos-resource-server/photos.iml" filepath="$PROJECT_DIR$/photos-resource-server/photos.iml" />
       <module fileurl="file://$PROJECT_DIR$/resource-serv/resource-serv.iml" filepath="$PROJECT_DIR$/resource-serv/resource-serv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/social-login-web-client/social-login-web-client.iml" filepath="$PROJECT_DIR$/social-login-web-client/social-login-web-client.iml" />
     </modules>
   </component>
 </project>

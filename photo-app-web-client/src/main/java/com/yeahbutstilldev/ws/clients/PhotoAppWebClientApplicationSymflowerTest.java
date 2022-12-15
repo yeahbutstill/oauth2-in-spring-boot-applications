@@ -1,10 +1,11 @@
 package com.yeahbutstilldev.ws.clients;
 
-import org.junit.jupiter.api.*;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 import org.springframework.security.oauth2.client.registration.ClientRegistrationRepository;
 import org.springframework.security.oauth2.client.web.OAuth2AuthorizedClientRepository;
 import org.springframework.web.reactive.function.client.WebClient;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PhotoAppWebClientApplicationSymflowerTest {
 	@Test
