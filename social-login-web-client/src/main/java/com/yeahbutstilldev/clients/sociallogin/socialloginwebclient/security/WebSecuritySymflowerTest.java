@@ -1,10 +1,9 @@
 package com.yeahbutstilldev.clients.sociallogin.socialloginwebclient.security;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+import static org.junit.jupiter.api.Assertions.*;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.web.cors.CorsConfigurationSource;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class WebSecuritySymflowerTest {
 	@Test

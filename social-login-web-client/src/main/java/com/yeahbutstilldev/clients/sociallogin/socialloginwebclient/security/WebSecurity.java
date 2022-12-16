@@ -1,9 +1,12 @@
 package com.yeahbutstilldev.clients.sociallogin.socialloginwebclient.security;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.oauth2.client.oidc.web.logout.OidcClientInitiatedLogoutSuccessHandler;
+import org.springframework.security.oauth2.client.registration.ClientRegistrationRepository;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
@@ -14,6 +17,9 @@ import java.util.List;
 @EnableWebSecurity
 public class WebSecurity extends WebSecurityConfigurerAdapter {
 
+    @Autowired
+    ClientRegistrationRepository clientRegistrationRepository;
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
 
@@ -21,19 +27,29 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/").permitAll()
                 .anyRequest().authenticated()
-                .and().oauth2Login();
-//                .and()
-//                .logout()
-//                //.logoutSuccessUrl("/")
-//                .logoutSuccessHandler(oidcLogoutSuccessHandler())
-//                .invalidateHttpSession(true)
-//                .clearAuthentication(true)
-//                .deleteCookies("JSESSIONID");
+                .and().oauth2Login()
+                .and()
+                .logout()
+//                .logoutSuccessUrl("/")
+                .logoutSuccessHandler(oidcLogoutSuccessHandler())
+                .invalidateHttpSession(true)
+                .clearAuthentication(true)
+                .deleteCookies("JSESSIONID");
 
+    }
+
+    private OidcClientInitiatedLogoutSuccessHandler oidcLogoutSuccessHandler() {
+
+        OidcClientInitiatedLogoutSuccessHandler successHandler =
+                new OidcClientInitiatedLogoutSuccessHandler(clientRegistrationRepository);
+        successHandler.setPostLogoutRedirectUri("http://localhost:8086/");
+
+        return successHandler;
     }
 
     @Bean
     CorsConfigurationSource corsConfigurationSource() {
+
         CorsConfiguration corsConfiguration = new CorsConfiguration();
         corsConfiguration.setAllowedOrigins(List.of("*"));
         corsConfiguration.setAllowedMethods(Arrays.asList("GET","POST"));
@@ -43,6 +59,7 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
         source.registerCorsConfiguration("/**", corsConfiguration);
 
         return source;
+
     }
 
 }
