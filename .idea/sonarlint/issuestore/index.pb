@@ -5,3 +5,15 @@ B
 api-getway/HELP.md,e/9/e9e2e8846cf8384e50de752d5a5d81718fd421af
 O
 resource-serv/resource-serv.iml,e/a/eac1525eac76a0dc52f00f156ead73958d01254e
+·
+†social-login-web-client/src/main/java/com/yeahbutstilldev/clients/sociallogin/socialloginwebclient/controllers/HomePageController.java,8/6/8679583661250d2ed8e6c34211436e4a2a671332
+¸
+‡social-login-web-client/src/main/java/com/yeahbutstilldev/clients/sociallogin/socialloginwebclient/controllers/IndexPageController.java,3/6/36428e8bb303cd8dead4a6c453c3462fbd4c8339
+¬
+|social-login-web-client/src/main/java/com/yeahbutstilldev/clients/sociallogin/socialloginwebclient/security/WebSecurity.java,7/b/7bcb1f9ba50b8170f2d9fcd2ce7ec94183150687
+O
+social-login-web-client/pom.xml,1/0/107de71696f6687e3acebf1b495e731e959bd95d
+E
+resource-serv/pom.xml,e/3/e370759dfae68afc45962f3872ca0ecdee9be7c3
+œ
+lresource-serv/src/main/java/com/yeahbutstilldev/ws/api/resourceserver/security/WebSecuritySymflowerTest.java,6/9/6964468228120edc6215af159bdc54b73fcdf264

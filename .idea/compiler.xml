@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="albums" />
         <module name="photo-app-web-client" />
+        <module name="spa" />
         <module name="resource-serv" />
         <module name="discoveryservice" />
         <module name="social-login-web-client" />
@@ -24,6 +25,7 @@
       <module name="photos" target="17" />
       <module name="resource-serv" target="17" />
       <module name="social-login-web-client" target="17" />
+      <module name="spa" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -35,6 +37,7 @@
       <module name="photos" options="-parameters" />
       <module name="resource-serv" options="-parameters" />
       <module name="social-login-web-client" options="-parameters" />
+      <module name="spa" options="-parameters" />
     </option>
   </component>
 </project>
