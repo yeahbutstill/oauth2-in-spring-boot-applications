@@ -1,6 +1,6 @@
 package com.yeahbutstilldev.ws.api.resourceserver.security;
 
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.Test;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 
 public class WebSecuritySymflowerTest {

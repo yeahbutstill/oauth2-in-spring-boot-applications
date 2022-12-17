@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/photo-app-web-client/pom.xml" />
         <option value="$PROJECT_DIR$/social-login-web-client/pom.xml" />
         <option value="$PROJECT_DIR$/spa/pom.xml" />
+        <option value="$PROJECT_DIR$/remote-user-storage-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/legacyusersservice/pom.xml" />
       </list>
     </option>
   </component>

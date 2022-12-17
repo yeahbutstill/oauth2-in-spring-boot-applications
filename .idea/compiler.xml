@@ -10,7 +10,9 @@
         <module name="albums" />
         <module name="photo-app-web-client" />
         <module name="spa" />
+        <module name="remote-user-storage-provider" />
         <module name="resource-serv" />
+        <module name="legacyusersservice" />
         <module name="discoveryservice" />
         <module name="social-login-web-client" />
         <module name="api-getway" />
@@ -21,8 +23,10 @@
       <module name="albums" target="17" />
       <module name="api-getway" target="17" />
       <module name="discoveryservice" target="17" />
+      <module name="legacyusersservice" target="17" />
       <module name="photo-app-web-client" target="17" />
       <module name="photos" target="17" />
+      <module name="remote-user-storage-provider" target="17" />
       <module name="resource-serv" target="17" />
       <module name="social-login-web-client" target="17" />
       <module name="spa" target="17" />
@@ -33,8 +37,10 @@
       <module name="albums" options="-parameters" />
       <module name="api-getway" options="-parameters" />
       <module name="discoveryservice" options="-parameters" />
+      <module name="legacyusersservice" options="-parameters" />
       <module name="photo-app-web-client" options="-parameters" />
       <module name="photos" options="-parameters" />
+      <module name="remote-user-storage-provider" options="-parameters" />
       <module name="resource-serv" options="-parameters" />
       <module name="social-login-web-client" options="-parameters" />
       <module name="spa" options="-parameters" />
