@@ -1,4 +1,4 @@
-package com.yeahbutstilldev.photoapp.OrdersWebOAuthClient;
+package com.yeahbutstilldev.photoapp.orders.web.oauth.client;
 
 import lombok.*;
 

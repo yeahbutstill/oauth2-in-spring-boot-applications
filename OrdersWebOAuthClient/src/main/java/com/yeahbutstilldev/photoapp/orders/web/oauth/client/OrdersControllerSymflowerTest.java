@@ -1,10 +1,9 @@
-package com.yeahbutstilldev.photoapp.OrdersWebOAuthClient;
+package com.yeahbutstilldev.photoapp.orders.web.oauth.client;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+import static org.junit.jupiter.api.Assertions.*;
 import org.springframework.security.oauth2.client.OAuth2AuthorizedClient;
 import org.springframework.ui.Model;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class OrdersControllerSymflowerTest {
 	@Test

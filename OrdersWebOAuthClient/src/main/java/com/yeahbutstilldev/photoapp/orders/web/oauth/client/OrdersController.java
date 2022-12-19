@@ -1,4 +1,4 @@
-package com.yeahbutstilldev.photoapp.OrdersWebOAuthClient;
+package com.yeahbutstilldev.photoapp.orders.web.oauth.client;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +31,7 @@ public class OrdersController {
 		String jwtAccessToken = authorizedClient.getAccessToken().getTokenValue();
 				log.info("jwtAccessToken =  {}", jwtAccessToken);
 				
-	    String url = "http://127.0.0.1:8091/orders";	
+	    String url = "http://127.0.0.1:8091/api/v1/orderorders";
 	    
 	    HttpHeaders headers = new HttpHeaders();
 	    headers.add("Authorization", "Bearer " + jwtAccessToken);

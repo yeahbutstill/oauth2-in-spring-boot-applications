@@ -63,9 +63,9 @@ fremote-user-storage-provider/src/main/java/com/yeahbutstilldev/keycloak/RemoteU
 clegacyusersservice/src/main/java/com/yeahbutstilldev/userswebservice/InitialSetupSymflowerTest.java,7/3/73feb4b740d0dbcc76b39f57dc1d8818d7c9e283
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-Ü
-Vorder-resource-server/src/main/java/com/yeahbutstilldev/photoapp/orders/OrderRest.java,5/d/5d326d81a88c273742ec1b1d423de0b49e3639a6
-é
-^order-resource-server/src/main/java/com/yeahbutstilldev/photoapp/orders/WebSecurityConfig.java,9/2/92c92ee44c455531ebf12dde7b76a344603e36d0
-ç
-]order-resource-server/src/main/java/com/yeahbutstilldev/photoapp/orders/OrdersController.java,e/9/e904ac4f5f7e45ebc824c3afc276280e3b5d9357
+L
+photo-app-web-client/pom.xml,0/7/0709b214da00d57024ea1e766da2b4a598831542
+´
+{new-spring-auth-server/src/main/java/com/yeahbutstilldev/photoapp/oauthserver/SpringSecurityConfigurationSymflowerTest.java,8/7/87ea23e9f5800bb7fd64d5bb1c2eb8305b363c36
+ì
+cphoto-app-web-client/src/main/java/com/yeahbutstilldev/ws/clients/controllers/AlbumsController.java,3/c/3c257f408c14f081832c3673895075c7da3d4f82
