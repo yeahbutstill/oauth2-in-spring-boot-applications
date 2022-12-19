@@ -18,7 +18,7 @@
 mvn clean install spring-boot:run
 ```
 
-# Deploy config provider keycloak
+## Deploy config provider keycloak
 - copy my-remote-user-storage-provider.jar to keycloak provider path
 - and run this to build
 ```shell
@@ -28,6 +28,9 @@ bin/kc.sh build
 ```shell
 kc.sh show-config
 ```
+
+## Postman
+- https://elements.getpostman.com/redirect?entityId=3534356-0e752e35-81e6-411d-a25b-33928f81b45d&entityType=collection
 
 ## Referencer
 - https://edwin.baculsoft.com/tag/keycloak

@@ -13,6 +13,10 @@
         <option value="$PROJECT_DIR$/spa/pom.xml" />
         <option value="$PROJECT_DIR$/remote-user-storage-provider/pom.xml" />
         <option value="$PROJECT_DIR$/legacyusersservice/pom.xml" />
+        <option value="$PROJECT_DIR$/new-spring-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/order-resource-server/pom.xml" />
+        <option value="$PROJECT_DIR$/OrdersWebOAuthClient-final-project/OrdersWebOAuthClient/pom.xml" />
+        <option value="$PROJECT_DIR$/OrdersWebOAuthClient/pom.xml" />
       </list>
     </option>
   </component>

@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/OAuth 2.0 in Spring Boot Applications.iml" filepath="$PROJECT_DIR$/.idea/OAuth 2.0 in Spring Boot Applications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrdersWebOAuthClient/OrdersWebOAuthClient.iml" filepath="$PROJECT_DIR$/OrdersWebOAuthClient/OrdersWebOAuthClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/albums-resource-server/albums.iml" filepath="$PROJECT_DIR$/albums-resource-server/albums.iml" />
       <module fileurl="file://$PROJECT_DIR$/api-getway/api-getway.iml" filepath="$PROJECT_DIR$/api-getway/api-getway.iml" />
       <module fileurl="file://$PROJECT_DIR$/discoveryservice/discoveryservice.iml" filepath="$PROJECT_DIR$/discoveryservice/discoveryservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/legacyusersservice/legacyusersservice.iml" filepath="$PROJECT_DIR$/legacyusersservice/legacyusersservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new-spring-auth-server/new-spring-auth-server.iml" filepath="$PROJECT_DIR$/new-spring-auth-server/new-spring-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-resource-server/order-resource-server.iml" filepath="$PROJECT_DIR$/order-resource-server/order-resource-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/photo-app-web-client/photo-app-web-client.iml" filepath="$PROJECT_DIR$/photo-app-web-client/photo-app-web-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/photos-resource-server/photos.iml" filepath="$PROJECT_DIR$/photos-resource-server/photos.iml" />
       <module fileurl="file://$PROJECT_DIR$/remote-user-storage-provider/remote-user-storage-provider.iml" filepath="$PROJECT_DIR$/remote-user-storage-provider/remote-user-storage-provider.iml" />

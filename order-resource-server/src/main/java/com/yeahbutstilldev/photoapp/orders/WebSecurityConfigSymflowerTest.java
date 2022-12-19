@@ -1,9 +1,10 @@
 package com.yeahbutstilldev.photoapp.orders;
 
-import org.junit.jupiter.api.*;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.SecurityFilterChain;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class WebSecurityConfigSymflowerTest {
 	@Test

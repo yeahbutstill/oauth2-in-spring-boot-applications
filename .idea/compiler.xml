@@ -7,16 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="order-resource-server" />
         <module name="albums" />
-        <module name="photo-app-web-client" />
+        <module name="new-spring-auth-server" />
+        <module name="OrdersWebOAuthClient" />
         <module name="spa" />
+        <module name="api-getway" />
+        <module name="photos" />
+        <module name="photo-app-web-client" />
         <module name="remote-user-storage-provider" />
         <module name="resource-serv" />
         <module name="legacyusersservice" />
         <module name="discoveryservice" />
         <module name="social-login-web-client" />
-        <module name="api-getway" />
-        <module name="photos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +27,9 @@
       <module name="api-getway" target="17" />
       <module name="discoveryservice" target="17" />
       <module name="legacyusersservice" target="17" />
+      <module name="new-spring-auth-server" target="17" />
+      <module name="order-resource-server" target="17" />
+      <module name="OrdersWebOAuthClient" target="17" />
       <module name="photo-app-web-client" target="17" />
       <module name="photos" target="17" />
       <module name="remote-user-storage-provider" target="17" />
@@ -34,10 +40,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="OrdersWebOAuthClient" options="-parameters" />
       <module name="albums" options="-parameters" />
       <module name="api-getway" options="-parameters" />
       <module name="discoveryservice" options="-parameters" />
       <module name="legacyusersservice" options="-parameters" />
+      <module name="new-spring-auth-server" options="-parameters" />
+      <module name="order-resource-server" options="-parameters" />
       <module name="photo-app-web-client" options="-parameters" />
       <module name="photos" options="-parameters" />
       <module name="remote-user-storage-provider" options="-parameters" />

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/OrdersWebOAuthClient-final-project/OrdersWebOAuthClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OrdersWebOAuthClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OrdersWebOAuthClient/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/albums-resource-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/albums-resource-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api-getway/src/main/java" charset="UTF-8" />
@@ -9,6 +12,10 @@
     <file url="file://$PROJECT_DIR$/discoveryservice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/legacyusersservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/legacyusersservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/new-spring-auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/new-spring-auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-resource-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/photo-app-web-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/photo-app-web-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/photos-resource-server/src/main/java" charset="UTF-8" />
